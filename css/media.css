@@ -1,0 +1,155 @@
+/* X-Small devices (portrait phones, upto 575px) */
+@media (min-width: 320px) and (max-width: 575px) { 
+    /* global css  */
+    .cart-btn {
+        width: 140px;
+        height: 50px;
+        font-size: 16px;
+ }
+ /* header css  */
+    .logo {
+        width: 170px;
+    }
+    .menu ul li a{
+        padding: 5px 0 !important;
+        text-align: right;
+    }
+ /* product css  */
+    .p_title{
+        text-align: center;
+    }
+    .shoe img {
+        height: 340px;
+    }
+    /* about css  */
+    .single_s{
+        padding: 20px !important;
+        display: block !important;
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center;
+    }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    /* header css  */
+    .menu ul li a{
+        padding: 5px 0 !important;
+        text-align: right;
+    }
+    .logo{
+        width: 220px;
+    }
+ /* product css  */
+    .p_title{
+        text-align: center;
+    }
+    .shoe img {
+        height: 360px;
+    }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+   /* global css  */
+    .cart-btn {
+        width: 185px;
+        height: 55px;
+        font-size: 16px;
+        padding: 14px 0;
+    }
+    /* header css  */
+    .logo{
+        width: 260px;
+    }
+    .single_item-heading{
+        margin-left: 35px;
+    }
+    /* product css  */
+    .p_title{
+        text-align: left;
+    }
+    .shoe img {
+        height: 200px;
+    }
+    .shoe_footer{
+        display: block;
+    }
+    .shoe_title{
+        font-size: 22px;
+    }
+    .shoe_subtitle{
+        line-height: 22px;
+        font-size: 14px;
+    }
+    .shoe_price {
+        font-size: 30px;
+    }
+    /* product css  */
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    /* header css  */
+    .logo {
+        width: 350px;
+        height: 50px;
+    }
+    .single_item-heading {
+        margin-left: 40px;
+    }
+    .banner_heading {
+        font-size: 70px;
+        line-height: 70px;
+    }
+    .menu ul li a{
+        padding: 10px 20px !important;
+    }
+    .menu ul li:last-child a{
+        padding-right: 0 !important;
+    }
+    /* global css  */
+    .cart-btn{
+        width: 150px;
+        height: 50px;
+        font-size: 16px;
+        padding: 12px 0;
+    }
+    /* product css  */
+    .shoe img {
+        height: 260px;
+    }
+    .shoe_title{
+        font-size: 22px;
+    }
+    .shoe_subtitle{
+        line-height: 26px;
+        font-size: 16px;
+    }
+    .shoe_footer{
+        display: flex;
+    }
+    .shoe_price {
+        font-size: 30px;
+    }
+    /* product css  */
+ }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .single_item-heading{
+        margin-left: 18%;
+    }
+    .banner_heading{
+        font-size: 80px;
+        line-height: 80px;
+    }
+    
+ }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    .banner_heading{
+        font-size: 80px;
+        line-height: 80px;
+    }
+ }
